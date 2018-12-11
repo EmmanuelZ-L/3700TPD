@@ -54,9 +54,7 @@ CREATE TABLE willRead (
 	usID character (10) REFERENCES theUser,
 	PRIMARY KEY (bookISBN, usID)
 );
--- Load data into tables
-INSERT INTO theUser (userID, fName, lName, Address, Gender, Birthday) values
-	(
+
 
 
 	
